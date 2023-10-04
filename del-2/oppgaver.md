@@ -8,13 +8,15 @@ Først av alt må vi sette opp en provider. Siden vi skal jobbe med google så b
 
 Legg til provideren i toppen av `main.tf` som [her](https://registry.terraform.io/providers/hashicorp/google/latest/docs#example-usage). Husk riktig region.
 
-kjør `terraform init` for å laste ned provideren.
+kjør `terraform init` fra mappen main.tf ligger i for å laste ned provideren.
 
 ## Kjør opp containeren!
 
 Ok, vi kaster oss ut på litt dypt vann her.
 Kort fortalt, sett opp en tilsvarende tjeneste, denne gangen via terraform.
 Du finner lenken til dokumentasjonen her: https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/cloud_run_v2_service
+
+Finn ut hva slags ressurs dere vil lage og putt den i main.tf.
 
 Før du setter i gang:
 
