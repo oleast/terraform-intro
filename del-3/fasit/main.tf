@@ -1,10 +1,10 @@
 provider "google" {
-  project = "halvveis-bistro"
+  project = "bekk-oppdrift"
   region  = "europe-west1"
 }
 
 locals {
-  function_name = "halvors-funksjon"
+  function_name = "oles-funksjon"
 }
 
 resource "google_cloudfunctions_function" "function" {
@@ -19,7 +19,7 @@ resource "google_cloudfunctions_function" "function" {
 }
 
 data "google_storage_bucket" "hello" {
-  name = "halvbistro-helloworld"
+  name = "oppdrift-helloworld"
 
 }
 data "google_storage_bucket_object" "hello_source" {

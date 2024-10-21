@@ -1,5 +1,5 @@
 locals {
-  function_name = "halvors-vidunderlige-funksjon"
+  function_name = "oles-vidunderlige-funksjon"
 }
 
 resource "google_cloudfunctions_function" "function" {
@@ -14,7 +14,7 @@ resource "google_cloudfunctions_function" "function" {
 }
 
 data "google_storage_bucket" "hello" {
-  name = "halvbistro-helloworld"
+  name = "oppdrift-helloworld"
 }
 
 data "google_storage_bucket_object" "hello_source" {

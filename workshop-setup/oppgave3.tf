@@ -1,10 +1,10 @@
 provider "google" {
-  project = "halvveis-bistro"
+  project = "bekk-oppdrift"
   region  = "europe-west1"
 }
 
 resource "google_storage_bucket" "bucket" {
-  name     = "halvbistro-helloworld"
+  name     = "oppdrift-helloworld"
   location = "EU"
 }
 

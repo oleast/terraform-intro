@@ -10,7 +10,7 @@ Locals er variabler som er tilgjengelige i samme fil man står i i terraform. So
 
 Terraform har både resources og data sources. data sources er gjerne for å kunne referere til noe som allerede eksisterer og vi ønsker å kunne referere til programmatisk.
 
-Under vil du trenge dette. Det finnes en storage bøtte `halvbistro-helloworld` med en fil `index.zip` i. Vi trenger denne under. For å kunne referere til denne kan vi lage oss en data source som peker på denne fila.
+Under vil du trenge dette. Det finnes en storage bøtte `oppdrift-helloworld` med en fil `index.zip` i. Vi trenger denne under. For å kunne referere til denne kan vi lage oss en data source som peker på denne fila.
 
 Lag en data source for både bøtta og index.zip objektet i bøtta. her er et eksempel til objektet i bøtta, du finner bøtta i menyen over data sources på venstre side i dokumentasjonen.
 

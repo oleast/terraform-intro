@@ -1,10 +1,10 @@
 provider "google" {
-  project = "halvveis-bistro"
+  project = "bekk-oppdrift"
   region  = "europe-west1"
 }
 
 resource "google_cloud_run_v2_service" "this" {
-  name     = "halvor-hello7"
+  name     = "ole-hello7"
   location = "europe-west1"
   ingress  = "INGRESS_TRAFFIC_ALL"
   template {

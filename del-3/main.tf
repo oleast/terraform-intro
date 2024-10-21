@@ -1,5 +1,5 @@
 provider "google" {
-  project = "halvveis-bistro"
+  project = "bekk-oppdrift"
   region  = "europe-west1"
 }
 

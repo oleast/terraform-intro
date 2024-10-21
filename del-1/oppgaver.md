@@ -6,7 +6,7 @@ Til dette eksempelet skal vi bruke det offentlige imaget `rancher/hello-world`. 
 ## Kjøre lokalt
 
 Først av alt skal vi prøve å kjøre tjenesten lokalt.
-Vi kan gjøre dette ved å kjøre `docker run -it -p <velgenportpådinmaskin>:80 rancher/hello-world`. Sjekk at det funker som det skal!
+Vi kan gjøre dette ved å kjøre `docker run -it -p <port-på-din-maskin>:80 rancher/hello-world`. Sjekk at det funker som det skal!
 
 ## Clickops-heaven
 
@@ -16,7 +16,7 @@ imaget ligger på: us-docker.pkg.dev/cloudrun/container/hello. Få det til å kj
 
 Vi tar i bruk Cloud Run til dette som er GCPs serverless løsning for containere.
 
-Gå til: https://console.cloud.google.com/run?project=halvveis-bistro
+Gå til: https://console.cloud.google.com/run?project=bekk-oppdrift
 Velg "Create Service" og velg "Deploy one revision from an existing container image". Sørg for å sette følgende verdier, fyll ellers ut det som trengs:
 
 - Samme image som over
